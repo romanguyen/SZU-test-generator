@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif; /* Replace with your desired font family */
+  }
+  
+h1 {
+text-align: center;
+}
+
+.nav li {
+display: inline;
+}
+
+.nav a {
+display: inline-block;
+padding: .5em;
+text-decoration: none;
+}
+
+.main-nav {
+text-align: center;
+font-size: 1.3em;
+font-weight: lighter;
+border-bottom: 1px solid rgb(0, 0, 0)
+}
+
+.main-nav li {
+padding: 0 5%;
+}
+
+.nav a:hover {
+background-color: rgba(0, 0, 0, .5)
+}
+
+.white-line {
+border: none;
+height: 1px;
+background-color: white;
+}

@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif; /* Replace with your desired font family */
+}
+
+h1 {
+text-align: center;
+}
+
+.nav li {
+display: inline;
+}
+
+.nav a {
+display: inline-block;
+padding: .5em;
+text-decoration: none;
+}
+
+.main-nav {
+text-align: center;
+font-size: 1.3em;
+font-weight: lighter;
+border-bottom: 1px solid rgb(0, 0, 0)
+}
+
+.main-nav li {
+padding: 0 5%;
+}
+
+.nav a:hover {
+background-color: rgba(0, 0, 0, .5)
+}
+
+.white-line {
+border: none;
+height: 1px;
+background-color: white;
+}
+
+
+.answer.incorrect {
+  color: red;
+}
+
+.answer-symbol {
+  margin-right: 5px; /* Adjust as needed */
+}
+
+.correct .answer-symbol {
+  color: green; /* Change the color for correct answers */
+}
+
+.wrong .answer-symbol {
+  color: red; /* Change the color for incorrect answers */
+}
+
+.correct {
+  background-color: lightgreen; /* Background color for correct answers */
+}
+
+.wrong {
+  background-color: pink; /* Background color for wrong answers */
+}
